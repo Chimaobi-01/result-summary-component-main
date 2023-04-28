@@ -44,7 +44,7 @@
 
 }
 
-.small {}
+
 
 .big {
     font-size: 4em;
@@ -56,13 +56,10 @@ figure {
     gap: 15px;
 }
 
-.bottom {}
-
 .bottom ul {
     display: flex;
     flex-direction: column;
 }
-
 .summary {
     margin: 20px 30px;
     font-size: 19px;
@@ -88,6 +85,10 @@ figure {
     font-weight: 600;
     font-size: 16px;
 
+}
+.bottom button:hover {
+    background: hsl(252, 100%, 67%);
+    cursor: pointer;
 }
 
 .reaction {
